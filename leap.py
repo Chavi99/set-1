@@ -1,5 +1,7 @@
-year=int(input())
-if year%4==0 and (year%400==0 or year%100!=0):
-    print("Yes")
-else:
-    print("No")
+def leap(a):
+    if a % 4 == 0 and (a % 400 == 0 or a % 100 != 0):
+        print("leap year")
+    else:
+        print("not")
+a=int(input())
+leap(a)
