@@ -1,3 +1,5 @@
-a=int(input())
-for i in range(0,a):
-    print("Hello")
+def prin(n):
+    for i in range(n):
+        print("Hello")
+x=int(input())
+prin(x)
